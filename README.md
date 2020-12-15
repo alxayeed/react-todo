@@ -1,4 +1,4 @@
-# Blog Django Example App
+# React Todo
 
 ### About the project
 A simple todo app built with react having the basic CRUD operations
