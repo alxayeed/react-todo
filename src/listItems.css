@@ -22,3 +22,14 @@
     margin: 0 5px;
     font-size: 20px;
 }
+
+.list p input {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+}
+
+.list p input:focus {
+    outline: none;
+}
