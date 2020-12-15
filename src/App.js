@@ -60,9 +60,9 @@ class App extends React.Component {
 
   updateItem(text, key) {
     const items = this.state.items
-    items.map(item => {
+    items.forEach(item => {
       if (item.key === key) {
-        return item.text = text;
+        item.text = text;
       }
     })
     this.setState({
