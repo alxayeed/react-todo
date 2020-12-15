@@ -1,6 +1,7 @@
 import React from 'react';
 import './listItems.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Flipmove from 'react-flip-move'
 
 function ListItems(props) {
     const items = props.items
@@ -26,7 +27,11 @@ function ListItems(props) {
         </div>
     })
     return (
-        <div>{listItems}</div>
+        <div>
+            <Flipmove duration={500} easing="ease-in-out" >
+                {listItems}
+            </Flipmove>
+        </div>
     )
 }
 
